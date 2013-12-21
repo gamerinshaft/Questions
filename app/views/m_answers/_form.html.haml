@@ -1,0 +1,16 @@
+= form_for @m_answer do |f|
+  - if @m_answer.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@m_answer.errors.count, "error")} prohibited this m_answer from being saved:"
+      %ul
+        - @m_answer.errors.full_messages.each do |msg|
+          %li= msg
+
+  .field
+    = f.label :check
+    = f.check_box :check
+  .field
+    = f.label :answer
+    = f.text_field :answer
+  .actions
+    = f.submit 'Save'

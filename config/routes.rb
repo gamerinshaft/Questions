@@ -1,4 +1,6 @@
 Kaitou::Application.routes.draw do
+  resources :m_answers
+
   resources :m_questions
 
   # The priority is based upon order of creation: first created -> highest priority.

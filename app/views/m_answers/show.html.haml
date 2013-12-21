@@ -1,0 +1,12 @@
+%p#notice= notice
+
+%p
+  %b Check:
+  = @m_answer.check
+%p
+  %b Answer:
+  = @m_answer.answer
+
+= link_to 'Edit', edit_m_answer_path(@m_answer)
+\|
+= link_to 'Back', m_answers_path

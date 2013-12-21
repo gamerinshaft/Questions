@@ -1,0 +1,21 @@
+%h1 Listing m_answers
+
+%table
+  %tr
+    %th Check
+    %th Answer
+    %th
+    %th
+    %th
+
+  - @m_answers.each do |m_answer|
+    %tr
+      %td= m_answer.check
+      %td= m_answer.answer
+      %td= link_to 'Show', m_answer
+      %td= link_to 'Edit', edit_m_answer_path(m_answer)
+      %td= link_to 'Destroy', m_answer, :method => :delete, :data => { :confirm => 'Are you sure?' }
+
+%br
+
+= link_to 'New M answer', new_m_answer_path
