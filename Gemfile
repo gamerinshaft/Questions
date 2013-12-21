@@ -43,3 +43,8 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+# User Add
+gem 'haml-rails'
+gem 'bootstrap-sass', '~> 2.3.1'
+gem 'font-awesome-rails', '~> 3.2.1'
