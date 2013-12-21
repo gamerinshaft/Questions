@@ -1,4 +1,6 @@
 Kaitou::Application.routes.draw do
+  resources :b_questions
+
   get "questions/index"
   resources :m_questions do
     resources :m_answers
