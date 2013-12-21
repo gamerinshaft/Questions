@@ -1,8 +1,8 @@
-%h1 Listing m_questions
+%h1 選択問題一覧
 
 %table
   %tr
-    %th Content
+    %th 問題内容
     %th
     %th
     %th
@@ -16,4 +16,6 @@
 
 %br
 
-= link_to 'New M question', new_m_question_path
+= link_to '新しい選択問題を作成する', new_m_question_path
+\|
+= link_to '種類選択に戻る', questions_index_path

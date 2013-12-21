@@ -4,6 +4,8 @@
   %b Content:
   = @m_question.content
 
+= render 'm_answers/form'
+
 = link_to 'Edit', edit_m_question_path(@m_question)
 \|
 = link_to 'Back', m_questions_path

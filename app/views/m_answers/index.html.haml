@@ -12,10 +12,10 @@
     %tr
       %td= m_answer.check
       %td= m_answer.answer
-      %td= link_to 'Show', m_answer
-      %td= link_to 'Edit', edit_m_answer_path(m_answer)
-      %td= link_to 'Destroy', m_answer, :method => :delete, :data => { :confirm => 'Are you sure?' }
+      %td= link_to 'Show', m_question_m_answer_path(@m_question, m_answer)
+      %td= link_to 'Edit', edit_m_question_m_answer_path(@m_question, m_answer)
+      %td= link_to 'Destroy', m_question_m_answer_path(@m_question, m_answer), :method => :delete, :data => { :confirm => 'Are you sure?' }
 
 %br
 
-= link_to 'New M answer', new_m_answer_path
+= link_to 'New M answer', new_m_question_m_answer_path

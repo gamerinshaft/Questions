@@ -2,6 +2,6 @@
 
 = render 'form'
 
-= link_to 'Show', @m_answer
+= link_to 'Show', m_question_m_answer_path(@m_question,@m_answer)
 \|
-= link_to 'Back', m_answers_path
+= link_to 'Back', m_question_m_answers_path

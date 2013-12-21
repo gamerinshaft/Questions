@@ -10,6 +10,8 @@ class MQuestionsController < ApplicationController
   # GET /m_questions/1
   # GET /m_questions/1.json
   def show
+    @m_answer = MAnswer.new
+
   end
 
   # GET /m_questions/new
