@@ -5388,3 +5388,345 @@ Processing by MAnswersController#index as HTML
   [1m[35mMAnswer Load (0.4ms)[0m  SELECT "m_answers".* FROM "m_answers"
   Rendered m_answers/index.html.haml within layouts/application (6.6ms)
 Completed 200 OK in 32ms (Views: 27.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/m_questions/2/m_answers" for 127.0.0.1 at 2013-12-21 15:38:54 +0900
+Processing by MAnswersController#index as HTML
+  Parameters: {"m_question_id"=>"2"}
+  [1m[36mMQuestion Load (0.4ms)[0m  [1mSELECT "m_questions".* FROM "m_questions" WHERE "m_questions"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mMAnswer Load (0.3ms)[0m  SELECT "m_answers".* FROM "m_answers"
+  Rendered m_answers/index.html.haml within layouts/application (127.7ms)
+Completed 200 OK in 192ms (Views: 156.9ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-21 15:38:54 +0900
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2013-12-21 15:38:54 +0900
+
+
+Started GET "/assets/m_answers.css?body=1" for 127.0.0.1 at 2013-12-21 15:38:54 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-21 15:38:54 +0900
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-12-21 15:38:54 +0900
+
+
+Started GET "/assets/m_questions.css?body=1" for 127.0.0.1 at 2013-12-21 15:38:54 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-21 15:38:54 +0900
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-12-21 15:38:54 +0900
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-12-21 15:38:54 +0900
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-12-21 15:38:54 +0900
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-12-21 15:38:54 +0900
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-12-21 15:38:54 +0900
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-12-21 15:38:54 +0900
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-21 15:38:54 +0900
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-12-21 15:38:54 +0900
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-12-21 15:38:54 +0900
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-12-21 15:38:54 +0900
+
+
+Started GET "/assets/m_answers.js?body=1" for 127.0.0.1 at 2013-12-21 15:38:54 +0900
+
+
+Started GET "/assets/m_questions.js?body=1" for 127.0.0.1 at 2013-12-21 15:38:54 +0900
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-12-21 15:38:54 +0900
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-21 15:38:54 +0900
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2013-12-21 15:38:54 +0900
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-12-21 15:38:54 +0900
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-12-21 15:38:55 +0900
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-21 15:38:55 +0900
+
+
+Started GET "/m_questions/2/m_answers/10" for 127.0.0.1 at 2013-12-21 15:38:56 +0900
+Processing by MAnswersController#show as HTML
+  Parameters: {"m_question_id"=>"2", "id"=>"10"}
+  [1m[36mMAnswer Load (0.4ms)[0m  [1mSELECT "m_answers".* FROM "m_answers" WHERE "m_answers"."id" = ? LIMIT 1[0m  [["id", "10"]]
+  [1m[35mMQuestion Load (0.2ms)[0m  SELECT "m_questions".* FROM "m_questions" WHERE "m_questions"."id" = ? LIMIT 1  [["id", "2"]]
+  Rendered m_answers/show.html.haml within layouts/application (5.0ms)
+Completed 200 OK in 35ms (Views: 30.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/m_questions/2/m_answers" for 127.0.0.1 at 2013-12-21 15:38:58 +0900
+Processing by MAnswersController#index as HTML
+  Parameters: {"m_question_id"=>"2"}
+  [1m[36mMQuestion Load (0.3ms)[0m  [1mSELECT "m_questions".* FROM "m_questions" WHERE "m_questions"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mMAnswer Load (0.3ms)[0m  SELECT "m_answers".* FROM "m_answers"
+  Rendered m_answers/index.html.haml within layouts/application (6.2ms)
+Completed 200 OK in 32ms (Views: 28.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/m_questions/2/m_answers/10/edit" for 127.0.0.1 at 2013-12-21 15:38:59 +0900
+Processing by MAnswersController#edit as HTML
+  Parameters: {"m_question_id"=>"2", "id"=>"10"}
+  [1m[36mMAnswer Load (0.2ms)[0m  [1mSELECT "m_answers".* FROM "m_answers" WHERE "m_answers"."id" = ? LIMIT 1[0m  [["id", "10"]]
+  [1m[35mMQuestion Load (0.2ms)[0m  SELECT "m_questions".* FROM "m_questions" WHERE "m_questions"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36mMAnswer Load (0.4ms)[0m  [1mSELECT "m_answers".* FROM "m_answers" WHERE "m_answers"."m_question_id" = ? AND "m_answers"."id" = ? LIMIT 1[0m  [["m_question_id", 2], ["id", "10"]]
+  Rendered m_answers/_form.html.haml (6.4ms)
+  Rendered m_answers/edit.html.haml within layouts/application (9.7ms)
+Completed 200 OK in 41ms (Views: 31.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/m_questions/2/m_answers/10" for 127.0.0.1 at 2013-12-21 15:39:01 +0900
+Processing by MAnswersController#show as HTML
+  Parameters: {"m_question_id"=>"2", "id"=>"10"}
+  [1m[35mMAnswer Load (0.3ms)[0m  SELECT "m_answers".* FROM "m_answers" WHERE "m_answers"."id" = ? LIMIT 1  [["id", "10"]]
+  [1m[36mMQuestion Load (0.2ms)[0m  [1mSELECT "m_questions".* FROM "m_questions" WHERE "m_questions"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered m_answers/show.html.haml within layouts/application (1.6ms)
+Completed 200 OK in 28ms (Views: 24.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/m_questions/2/m_answers" for 127.0.0.1 at 2013-12-21 15:39:02 +0900
+Processing by MAnswersController#index as HTML
+  Parameters: {"m_question_id"=>"2"}
+  [1m[35mMQuestion Load (0.2ms)[0m  SELECT "m_questions".* FROM "m_questions" WHERE "m_questions"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36mMAnswer Load (0.3ms)[0m  [1mSELECT "m_answers".* FROM "m_answers"[0m
+  Rendered m_answers/index.html.haml within layouts/application (6.6ms)
+Completed 200 OK in 32ms (Views: 28.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/m_questions/2/m_answers/10/edit" for 127.0.0.1 at 2013-12-21 15:39:03 +0900
+Processing by MAnswersController#edit as HTML
+  Parameters: {"m_question_id"=>"2", "id"=>"10"}
+  [1m[35mMAnswer Load (0.2ms)[0m  SELECT "m_answers".* FROM "m_answers" WHERE "m_answers"."id" = ? LIMIT 1  [["id", "10"]]
+  [1m[36mMQuestion Load (0.2ms)[0m  [1mSELECT "m_questions".* FROM "m_questions" WHERE "m_questions"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mMAnswer Load (0.2ms)[0m  SELECT "m_answers".* FROM "m_answers" WHERE "m_answers"."m_question_id" = ? AND "m_answers"."id" = ? LIMIT 1  [["m_question_id", 2], ["id", "10"]]
+  Rendered m_answers/_form.html.haml (5.2ms)
+  Rendered m_answers/edit.html.haml within layouts/application (8.0ms)
+Completed 200 OK in 38ms (Views: 30.7ms | ActiveRecord: 0.6ms)
+
+
+Started PATCH "/m_questions/2/m_answers/10" for 127.0.0.1 at 2013-12-21 15:39:05 +0900
+Processing by MAnswersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DHc5kae3pUKP9hk3oSPrMuxP8Is+CS0duXFjlJFBPBQ=", "m_answer"=>{"check"=>"0", "answer"=>"fash"}, "commit"=>"Save", "m_question_id"=>"2", "id"=>"10"}
+  [1m[36mMAnswer Load (0.3ms)[0m  [1mSELECT "m_answers".* FROM "m_answers" WHERE "m_answers"."id" = ? LIMIT 1[0m  [["id", "10"]]
+  [1m[35mMQuestion Load (0.2ms)[0m  SELECT "m_questions".* FROM "m_questions" WHERE "m_questions"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.2ms)[0m  INSERT INTO "m_answers" ("answer", "check", "created_at", "m_question_id", "updated_at") VALUES (?, ?, ?, ?, ?)  [["answer", "fash"], ["check", false], ["created_at", Sat, 21 Dec 2013 06:39:05 UTC +00:00], ["m_question_id", 2], ["updated_at", Sat, 21 Dec 2013 06:39:05 UTC +00:00]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/m_questions/2/m_answers/14
+Completed 302 Found in 23ms (ActiveRecord: 3.0ms)
+
+
+Started GET "/m_questions/2/m_answers/14" for 127.0.0.1 at 2013-12-21 15:39:05 +0900
+Processing by MAnswersController#show as HTML
+  Parameters: {"m_question_id"=>"2", "id"=>"14"}
+  [1m[35mMAnswer Load (0.3ms)[0m  SELECT "m_answers".* FROM "m_answers" WHERE "m_answers"."id" = ? LIMIT 1  [["id", "14"]]
+  [1m[36mMQuestion Load (0.2ms)[0m  [1mSELECT "m_questions".* FROM "m_questions" WHERE "m_questions"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered m_answers/show.html.haml within layouts/application (2.8ms)
+Completed 200 OK in 35ms (Views: 30.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2013-12-21 15:39:05 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-21 15:39:05 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-21 15:39:05 +0900
+
+
+Started GET "/assets/m_questions.css?body=1" for 127.0.0.1 at 2013-12-21 15:39:05 +0900
+
+
+Started GET "/assets/m_answers.css?body=1" for 127.0.0.1 at 2013-12-21 15:39:05 +0900
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-12-21 15:39:05 +0900
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-12-21 15:39:05 +0900
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-12-21 15:39:05 +0900
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-12-21 15:39:05 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-21 15:39:05 +0900
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-12-21 15:39:05 +0900
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-12-21 15:39:05 +0900
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-12-21 15:39:05 +0900
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-12-21 15:39:05 +0900
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-21 15:39:05 +0900
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-12-21 15:39:05 +0900
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-12-21 15:39:05 +0900
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-21 15:39:05 +0900
+
+
+Started GET "/assets/m_answers.js?body=1" for 127.0.0.1 at 2013-12-21 15:39:05 +0900
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-12-21 15:39:05 +0900
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2013-12-21 15:39:05 +0900
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-21 15:39:05 +0900
+
+
+Started GET "/assets/m_questions.js?body=1" for 127.0.0.1 at 2013-12-21 15:39:05 +0900
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-12-21 15:39:05 +0900
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-12-21 15:39:05 +0900
+
+
+Started GET "/m_questions/2/m_answers" for 127.0.0.1 at 2013-12-21 15:39:07 +0900
+Processing by MAnswersController#index as HTML
+  Parameters: {"m_question_id"=>"2"}
+  [1m[35mMQuestion Load (0.2ms)[0m  SELECT "m_questions".* FROM "m_questions" WHERE "m_questions"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36mMAnswer Load (0.4ms)[0m  [1mSELECT "m_answers".* FROM "m_answers"[0m
+  Rendered m_answers/index.html.haml within layouts/application (7.7ms)
+Completed 200 OK in 118ms (Views: 114.4ms | ActiveRecord: 0.6ms)
+
+
+Started DELETE "/m_questions/2/m_answers/10" for 127.0.0.1 at 2013-12-21 15:39:09 +0900
+Processing by MAnswersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"DHc5kae3pUKP9hk3oSPrMuxP8Is+CS0duXFjlJFBPBQ=", "m_question_id"=>"2", "id"=>"10"}
+  [1m[35mMAnswer Load (0.5ms)[0m  SELECT "m_answers".* FROM "m_answers" WHERE "m_answers"."id" = ? LIMIT 1  [["id", "10"]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.8ms)[0m  DELETE FROM "m_answers" WHERE "m_answers"."id" = ?  [["id", 10]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/m_questions/2/m_answers
+Completed 302 Found in 21ms (ActiveRecord: 4.0ms)
+
+
+Started GET "/m_questions/2/m_answers" for 127.0.0.1 at 2013-12-21 15:39:10 +0900
+Processing by MAnswersController#index as HTML
+  Parameters: {"m_question_id"=>"2"}
+  [1m[35mMQuestion Load (0.3ms)[0m  SELECT "m_questions".* FROM "m_questions" WHERE "m_questions"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36mMAnswer Load (0.4ms)[0m  [1mSELECT "m_answers".* FROM "m_answers"[0m
+  Rendered m_answers/index.html.haml within layouts/application (7.7ms)
+Completed 200 OK in 56ms (Views: 45.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/m_questions.css?body=1" for 127.0.0.1 at 2013-12-21 15:39:10 +0900
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2013-12-21 15:39:10 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-21 15:39:10 +0900
+
+
+Started GET "/assets/m_answers.css?body=1" for 127.0.0.1 at 2013-12-21 15:39:10 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-21 15:39:10 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-21 15:39:10 +0900
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-12-21 15:39:10 +0900
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-12-21 15:39:10 +0900
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-12-21 15:39:10 +0900
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-12-21 15:39:10 +0900
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-12-21 15:39:10 +0900
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-12-21 15:39:10 +0900
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-12-21 15:39:10 +0900
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-12-21 15:39:10 +0900
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-21 15:39:10 +0900
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-12-21 15:39:10 +0900
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-12-21 15:39:10 +0900
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-21 15:39:10 +0900
+
+
+Started GET "/assets/m_answers.js?body=1" for 127.0.0.1 at 2013-12-21 15:39:10 +0900
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-12-21 15:39:10 +0900
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2013-12-21 15:39:10 +0900
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-21 15:39:10 +0900
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-12-21 15:39:10 +0900
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-12-21 15:39:10 +0900
+
+
+Started GET "/assets/m_questions.js?body=1" for 127.0.0.1 at 2013-12-21 15:39:10 +0900
