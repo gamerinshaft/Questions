@@ -1,8 +1,8 @@
 Kaitou::Application.routes.draw do
-  resources :m_answers
-
-  resources :m_questions
-
+  get "questions/index"
+  resources :m_questions do
+    resources :m_answers
+  end
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
