@@ -6401,3 +6401,10 @@ Processing by BQuestionsController#index as HTML
   [1m[35mBQuestion Load (0.3ms)[0m  SELECT "b_questions".* FROM "b_questions"
   Rendered b_questions/index.html.haml within layouts/application (2.2ms)
 Completed 200 OK in 31ms (Views: 28.7ms | ActiveRecord: 0.3ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateBAnswers (20131221071534)
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.8ms)[0m  [1mCREATE TABLE "b_answers" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "answer" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20131221071534"]]
+  [1m[36m (2.5ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
