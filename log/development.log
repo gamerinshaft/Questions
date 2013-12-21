@@ -6054,3 +6054,350 @@ Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-12-21 15:50:
 
 
 Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-21 15:50:54 +0900
+
+
+Started GET "/b_questions" for 127.0.0.1 at 2013-12-21 15:51:21 +0900
+Processing by BQuestionsController#index as HTML
+  [1m[36mBQuestion Load (0.5ms)[0m  [1mSELECT "b_questions".* FROM "b_questions"[0m
+  Rendered b_questions/index.html.haml within layouts/application (7.1ms)
+Completed 200 OK in 34ms (Views: 31.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/b_questions.css?body=1" for 127.0.0.1 at 2013-12-21 15:51:21 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:21 +0900
+
+
+Started GET "/assets/m_answers.css?body=1" for 127.0.0.1 at 2013-12-21 15:51:21 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:21 +0900
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2013-12-21 15:51:22 +0900
+
+
+Started GET "/assets/m_questions.css?body=1" for 127.0.0.1 at 2013-12-21 15:51:22 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:22 +0900
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:22 +0900
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:22 +0900
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:22 +0900
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:22 +0900
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:22 +0900
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:22 +0900
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:22 +0900
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-21 15:51:22 +0900
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:22 +0900
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:22 +0900
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:22 +0900
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:22 +0900
+
+
+Started GET "/assets/b_questions.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:22 +0900
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:22 +0900
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:22 +0900
+
+
+Started GET "/assets/m_questions.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:22 +0900
+
+
+Started GET "/assets/m_answers.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:22 +0900
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:22 +0900
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:22 +0900
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:22 +0900
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-21 15:51:25 +0900
+Processing by QuestionsController#index as HTML
+  Rendered questions/index.html.haml within layouts/application (1.1ms)
+Completed 200 OK in 31ms (Views: 29.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/m_answers.css?body=1" for 127.0.0.1 at 2013-12-21 15:51:25 +0900
+
+
+Started GET "/assets/m_questions.css?body=1" for 127.0.0.1 at 2013-12-21 15:51:25 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:25 +0900
+
+
+Started GET "/assets/b_questions.css?body=1" for 127.0.0.1 at 2013-12-21 15:51:25 +0900
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2013-12-21 15:51:25 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:25 +0900
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:25 +0900
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:25 +0900
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:25 +0900
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:25 +0900
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:25 +0900
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:25 +0900
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-21 15:51:25 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:25 +0900
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:25 +0900
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:25 +0900
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:25 +0900
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:25 +0900
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:26 +0900
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:26 +0900
+
+
+Started GET "/assets/m_answers.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:26 +0900
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:26 +0900
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:26 +0900
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:26 +0900
+
+
+Started GET "/assets/m_questions.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:26 +0900
+
+
+Started GET "/assets/b_questions.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:26 +0900
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:26 +0900
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-21 15:51:56 +0900
+Processing by QuestionsController#index as HTML
+  Rendered questions/index.html.haml within layouts/application (1.4ms)
+Completed 200 OK in 34ms (Views: 32.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/m_answers.css?body=1" for 127.0.0.1 at 2013-12-21 15:51:56 +0900
+
+
+Started GET "/assets/m_questions.css?body=1" for 127.0.0.1 at 2013-12-21 15:51:56 +0900
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2013-12-21 15:51:56 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:56 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:56 +0900
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:56 +0900
+
+
+Started GET "/assets/b_questions.css?body=1" for 127.0.0.1 at 2013-12-21 15:51:56 +0900
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-21 15:51:56 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:56 +0900
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:56 +0900
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:56 +0900
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:56 +0900
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:56 +0900
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:56 +0900
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:56 +0900
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:56 +0900
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:56 +0900
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:56 +0900
+
+
+Started GET "/assets/m_answers.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:56 +0900
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:56 +0900
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:56 +0900
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:56 +0900
+
+
+Started GET "/assets/b_questions.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:56 +0900
+
+
+Started GET "/assets/m_questions.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:56 +0900
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:56 +0900
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:56 +0900
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-21 15:51:56 +0900
+
+
+Started GET "/b_questions" for 127.0.0.1 at 2013-12-21 15:51:57 +0900
+Processing by BQuestionsController#index as HTML
+  [1m[35mBQuestion Load (0.3ms)[0m  SELECT "b_questions".* FROM "b_questions"
+  Rendered b_questions/index.html.haml within layouts/application (6.2ms)
+Completed 200 OK in 31ms (Views: 29.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/questions/index" for 127.0.0.1 at 2013-12-21 15:51:58 +0900
+Processing by QuestionsController#index as HTML
+  Rendered questions/index.html.haml within layouts/application (2.8ms)
+Completed 200 OK in 27ms (Views: 25.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/b_questions" for 127.0.0.1 at 2013-12-21 15:51:59 +0900
+Processing by BQuestionsController#index as HTML
+  [1m[36mBQuestion Load (0.3ms)[0m  [1mSELECT "b_questions".* FROM "b_questions"[0m
+  Rendered b_questions/index.html.haml within layouts/application (2.3ms)
+Completed 200 OK in 27ms (Views: 25.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/questions/index" for 127.0.0.1 at 2013-12-21 15:52:00 +0900
+Processing by QuestionsController#index as HTML
+  Rendered questions/index.html.haml within layouts/application (1.3ms)
+Completed 200 OK in 26ms (Views: 24.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/m_questions" for 127.0.0.1 at 2013-12-21 15:52:01 +0900
+Processing by MQuestionsController#index as HTML
+  [1m[35mMQuestion Load (0.4ms)[0m  SELECT "m_questions".* FROM "m_questions"
+  Rendered m_questions/index.html.haml within layouts/application (21.6ms)
+Completed 200 OK in 54ms (Views: 45.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/questions/index" for 127.0.0.1 at 2013-12-21 15:52:02 +0900
+Processing by QuestionsController#index as HTML
+  Rendered questions/index.html.haml within layouts/application (0.9ms)
+Completed 200 OK in 26ms (Views: 24.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/b_questions" for 127.0.0.1 at 2013-12-21 15:52:03 +0900
+Processing by BQuestionsController#index as HTML
+  [1m[36mBQuestion Load (0.3ms)[0m  [1mSELECT "b_questions".* FROM "b_questions"[0m
+  Rendered b_questions/index.html.haml within layouts/application (2.0ms)
+Completed 200 OK in 26ms (Views: 24.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/questions/index" for 127.0.0.1 at 2013-12-21 15:52:05 +0900
+Processing by QuestionsController#index as HTML
+  Rendered questions/index.html.haml within layouts/application (0.9ms)
+Completed 200 OK in 35ms (Views: 32.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/b_questions" for 127.0.0.1 at 2013-12-21 16:08:50 +0900
+Processing by BQuestionsController#index as HTML
+  [1m[35mBQuestion Load (0.3ms)[0m  SELECT "b_questions".* FROM "b_questions"
+  Rendered b_questions/index.html.haml within layouts/application (2.0ms)
+Completed 200 OK in 29ms (Views: 25.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/questions/index" for 127.0.0.1 at 2013-12-21 16:08:52 +0900
+Processing by QuestionsController#index as HTML
+  Rendered questions/index.html.haml within layouts/application (0.8ms)
+Completed 200 OK in 26ms (Views: 24.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/m_questions" for 127.0.0.1 at 2013-12-21 16:08:53 +0900
+Processing by MQuestionsController#index as HTML
+  [1m[36mMQuestion Load (0.4ms)[0m  [1mSELECT "m_questions".* FROM "m_questions"[0m
+  Rendered m_questions/index.html.haml within layouts/application (4.3ms)
+Completed 200 OK in 110ms (Views: 108.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/questions/index" for 127.0.0.1 at 2013-12-21 16:08:54 +0900
+Processing by QuestionsController#index as HTML
+  Rendered questions/index.html.haml within layouts/application (0.9ms)
+Completed 200 OK in 26ms (Views: 24.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/b_questions" for 127.0.0.1 at 2013-12-21 16:13:58 +0900
+Processing by BQuestionsController#index as HTML
+  [1m[35mBQuestion Load (0.3ms)[0m  SELECT "b_questions".* FROM "b_questions"
+  Rendered b_questions/index.html.haml within layouts/application (2.2ms)
+Completed 200 OK in 31ms (Views: 28.7ms | ActiveRecord: 0.3ms)
