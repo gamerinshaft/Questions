@@ -1,0 +1,19 @@
+%h1 Listing m_questions
+
+%table
+  %tr
+    %th Content
+    %th
+    %th
+    %th
+
+  - @m_questions.each do |m_question|
+    %tr
+      %td= m_question.content
+      %td= link_to 'Show', m_question
+      %td= link_to 'Edit', edit_m_question_path(m_question)
+      %td= link_to 'Destroy', m_question, :method => :delete, :data => { :confirm => 'Are you sure?' }
+
+%br
+
+= link_to 'New M question', new_m_question_path
