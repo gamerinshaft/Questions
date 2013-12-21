@@ -309,3 +309,85 @@ Migrating to CreateMAnswers (20131221053820)
   [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20131221053820"]]
   [1m[36m (2.8ms)[0m  [1mcommit transaction[0m
   [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-21 14:45:03 +0900
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Processing by QuestionsController#index as HTML
+  Rendered questions/index.html.haml within layouts/application (1.8ms)
+Completed 200 OK in 2804ms (Views: 2797.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/m_answers.css?body=1" for 127.0.0.1 at 2013-12-21 14:45:06 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-21 14:45:06 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-21 14:45:06 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-21 14:45:06 +0900
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-12-21 14:45:06 +0900
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-12-21 14:45:06 +0900
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-12-21 14:45:06 +0900
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-12-21 14:45:06 +0900
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-12-21 14:45:06 +0900
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-12-21 14:45:06 +0900
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-12-21 14:45:06 +0900
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-12-21 14:45:06 +0900
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2013-12-21 14:45:06 +0900
+
+
+Started GET "/assets/m_questions.css?body=1" for 127.0.0.1 at 2013-12-21 14:45:06 +0900
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-21 14:45:06 +0900
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-12-21 14:45:06 +0900
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-12-21 14:45:06 +0900
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-21 14:45:06 +0900
+
+
+Started GET "/assets/m_answers.js?body=1" for 127.0.0.1 at 2013-12-21 14:45:06 +0900
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-12-21 14:45:06 +0900
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-12-21 14:45:06 +0900
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-12-21 14:45:06 +0900
+
+
+Started GET "/assets/m_questions.js?body=1" for 127.0.0.1 at 2013-12-21 14:45:06 +0900
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-21 14:45:06 +0900
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2013-12-21 14:45:06 +0900
