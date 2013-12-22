@@ -12,6 +12,7 @@ class MQuestionsController < ApplicationController
   def show
     @m_answer = MAnswer.new
 
+
   end
 
   # GET /m_questions/new

@@ -1,4 +1,4 @@
-= form_for @b_answer do |f|
+= form_for [@b_question, @b_answer] do |f|
   - if @b_answer.errors.any?
     #error_explanation
       %h2= "#{pluralize(@b_answer.errors.count, "error")} prohibited this b_answer from being saved:"

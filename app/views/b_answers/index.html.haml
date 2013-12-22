@@ -10,10 +10,10 @@
   - @b_answers.each do |b_answer|
     %tr
       %td= b_answer.answer
-      %td= link_to 'Show', b_answer
-      %td= link_to 'Edit', edit_b_answer_path(b_answer)
-      %td= link_to 'Destroy', b_answer, :method => :delete, :data => { :confirm => 'Are you sure?' }
+      %td= link_to 'Show', b_question_b_answer_path(@b_question,b_answer)
+      %td= link_to 'Edit', edit_b_question_b_answer_path(@b_question, b_answer)
+      %td= link_to 'Destroy', b_question_b_answer_path(@b_question, b_answer), :method => :delete, :data => { :confirm => 'Are you sure?' }
 
 %br
 
-= link_to 'New B answer', new_b_answer_path
+= link_to 'New B answer', new_b_question_b_answer_path

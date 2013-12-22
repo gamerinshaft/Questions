@@ -15,6 +15,7 @@ ActiveRecord::Schema.define(version: 20131221071534) do
 
   create_table "b_answers", force: true do |t|
     t.string   "answer"
+    t.string   "b_question_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

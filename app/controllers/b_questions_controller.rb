@@ -1,6 +1,5 @@
 class BQuestionsController < ApplicationController
   before_action :set_b_question, only: [:show, :edit, :update, :destroy]
-
   # GET /b_questions
   # GET /b_questions.json
   def index
@@ -10,6 +9,7 @@ class BQuestionsController < ApplicationController
   # GET /b_questions/1
   # GET /b_questions/1.json
   def show
+    @b_answer = BAnswer.new
   end
 
   # GET /b_questions/new
